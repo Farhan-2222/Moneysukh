@@ -84,7 +84,7 @@
 
 .ipo .about{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 2rem;
 }
 
@@ -181,15 +181,15 @@
   color: #7f7c7c;
 }
 
-.rightbottoms h2{
-  font-weight: 500;
-  font-size: 20px;
-}
-
 .rightbottoms{
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+}
+
+.rightbottoms h2{
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .rightbottoms .subdiv{
