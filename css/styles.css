@@ -161,10 +161,10 @@ button.custom-toggler{
   font-weight: 500;
 }
 
-.footer .rightbottoms{
+/* .footer .rightbottoms{
   position: relative;
   left: 25px;
-}
+} */
 
 .pageutility{
   display: flex;
@@ -233,23 +233,29 @@ button.custom-toggler{
   .footer{
     padding: 20px 10px;
   }
+  .navbar{
+    width: 99.5vw;
+  }
 }
 
-@media screen and (max-width: 410px){
-  .footer{
-    width: 127vw;
+@media (max-width: 418px){
+  .navbar{
+    width: 100%;
   }
 
-  button.custom-toggler{
-    right: 60px;
+  .ipo .about{
+    width: 100%;
   }
 
   .ipo .info{
-    padding: 0 5px 0 0;
+    padding-right: 0;
   }
 
-  .stardiv{
-    position: relative;
-    left: 35px;
+  .ipo .info p{
+    font-size: 2.3vh;
+  }
+
+  .footer{
+    width: 125vw;
   }
 }
