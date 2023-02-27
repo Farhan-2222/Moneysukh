@@ -237,9 +237,20 @@ button.custom-toggler{
 
 @media screen and (max-width: 410px){
   .footer{
-    width: 118vw;
+    width: 127vw;
   }
+
+  button.custom-toggler{
+    right: 60px;
+  }
+
   .ipo .info{
-    padding: 0 8px 0 0;
+    padding: 0 5px 0 0;
+  }
+
+  .stardiv{
+    position: relative;
+    left: 35px;
   }
 }
+
